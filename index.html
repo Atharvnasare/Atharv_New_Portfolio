@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharv Nasare | Embedded Software/Hardware/Firmware Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Atharv Nasare</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/Atharv_new.jpeg"
+        alt="Atharv Nasare"
+        class="profile-img">
+
+        <h1>Hi, I'm Atharv Nasare</h1>
+        <h2> Embedded Software/Hardware/Firmware Engineer </h2>
+        <p>
+            Embedded C | ESP32 | STM32 | FreeRTOS | CAN | IoT
+        </p>
+
+        <a href="resume/Atharv_Nasare_Resume.pdf" class="btn" target="_blank">
+            Download Resume
+        </a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a B.Tech Electronics and Telecommunication graduate and
+            have completed PG-DESD from CDAC Pune. I have hands-on experience
+            in Embedded C, ESP32, STM32, FreeRTOS, CAN communication,
+            sensor interfacing, and IoT development.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="card">
+                <h3>💻 Programming</h3>
+                <ul class="skill-list">
+                    <li> C</li>
+                    <li> Embedded C</li>
+                    <li> C++</li>
+                    <li> Python</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>🔧 Microcontrollers</h3>
+                <ul class="skill-list">
+                    <li> STM32</li>
+                    <li> ESP32</li>
+                    <li> ESP8266</li>
+                    <li> RISC-V MCUs</li>
+                    <li> ARM Cortex-M</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>📡 Protocols</h3>
+                <ul class="skill-list">
+                    <li> CAN</li>
+                    <li> UART</li>
+                    <li> SPI</li>
+                    <li> I2C</li>
+                    <li> RS232</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>🛠 Tools</h3>
+                <ul class="skill-list">
+                    <li> Keil uVision</li>
+                    <li> STM32CubeIDE</li>
+                    <li> KiCad</li>
+                    <li> EasyEDA</li>
+                    <li> Git</li>
+                    <li> GDB (Basic)</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>📐 PCB Design</h3>
+                <ul class="skill-list">
+                    <li> Schematic Capture</li>
+                    <li> PCB Layout</li>
+                    <li> Component Placement</li>
+                    <li> Routing</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>🔍 Hardware Debugging</h3>
+                <ul class="skill-list">
+                    <li> Oscilloscope</li>
+                    <li> Logic Analyzer</li>
+                    <li> Multimeter</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>⚙ Embedded Concepts</h3>
+                <ul class="skill-list">
+                    <li> Bare Metal Programming</li>
+                    <li> Sensor Interfacing</li>
+                    <li> ADC & GPIO</li>
+                    <li> Timers & Interrupts</li>
+                    <li> FreeRTOS Tasks</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>🌐 Networking & IoT</h3>
+                <ul class="skill-list">
+                    <li> TCP/IP (Basic)</li>
+                    <li> Firebase</li>
+                    <li> Blynk</li>
+                    <li> IoT Cloud Integration</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Smart Energy Management System using CAN Protocol</h3>
+            <ul class="project-details">
+                <li>Designed and developed a distributed energy monitoring system using dual ESP32 microcontrollers.</li>
+
+                <li>Implemented CAN-to-CAN communication using SN65HVD230 at 500 kbps with proper 120-ohm termination for reliable industrial communication.</li>
+
+                <li>Developed sensor interfacing and ADC-based data acquisition using ACS712, ZMPT101B, and DS18B20 sensors.</li>
+
+                <li>Implemented threshold-based fault detection and buzzer alert system.</li>
+
+                <li>Designed and transmitted CAN frames with message filtering and validation.</li>
+
+                <li>Integrated Wi-Fi and Firebase cloud for real-time remote monitoring and web dashboard visualization.</li>
+            </ul>
+
+            <ul>
+                <li>CAN-based communication</li>
+                <li>Cloud monitoring dashboard</li>
+                <li>Fault detection & alerts</li>
+                <li>Real-time sensor monitoring</li>
+            </ul>
+            <a href="https://github.com/Own-Projects-Atharv/SMART-ENERGY-MANAGEMENT-SYSTEM-USING-CAN-AND-IOT"
+                target="_blank"
+                class="github-btn">
+                <i class="fab fa-github"></i> View Source Code
+            </a>
+        </div>
+
+        <div class="project-card">
+            <h3>Crop Monitoring System using IoT</h3>
+            <ul class="project-details">
+                <li>Designed and developed an IoT-based smart irrigation system for real-time monitoring of soil moisture, temperature, and humidity.</li>
+
+                <li>Built a 240V AC to 5V DC regulated power supply using transformer and rectifier circuit.</li>
+
+                <li>Interfaced DHT11 and soil moisture sensors with microcontroller for environmental monitoring.</li>
+
+                <li>Implemented relay-based automatic motor control using threshold logic.</li>
+
+                <li>Integrated Blynk platform for remote monitoring and motor control via mobile dashboard.</li>
+            </ul>
+
+            <ul>
+                <li>Soil moisture sensing</li>
+                <li>Automatic pump control</li>
+                <li>Mobile monitoring</li>
+                <li>IoT connectivity</li>
+            </ul>
+            <a href="https://github.com/Atharvnasare/Crop-Monitoring-System-In-Agriculture-Using-IoT--Megaproject"
+                target="_blank"
+                class="github-btn">
+                <i class="fab fa-github"></i> View Source Code
+            </a>
+            
+        </div>
+
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>PG-Diploma in Embedded System Design</h3>
+            <p>(C-DAC) Sunbeam Institute Of Information Technology, Pune</p>
+            <p><strong>Aug 2025 - Jan 2026</strong></p>
+            <p>Percentage: 68%</p>
+        </div>
+
+        <div class="card">
+            <h3>B.Tech in Electronics and Telecommunication Engineering, RTMNU</h3>
+            <p>Bapurao Deshmukh College of Engineering, Sewagram, Wardha</p>
+            <p><strong>2021 - 2025</strong></p>
+            <p>CGPA: 7.2</p>
+        </div>
+
+        <div class="card">
+            <h3>HSC (12th), State Board</h3>
+            <p>Janta Junior College, Deoli, Wardha</p>
+            <p><strong>2019 - 2021</strong></p>
+            <p>Percentage: 82%</p>
+        </div>
+
+        <div class="card">
+            <h3>SSC (10th), CBSE Board</h3>
+            <p>School of Scholars, Sawangi (Meghe), Wardha</p>
+            <p><strong>2013 - 2019</strong></p>
+            <p>Percentage: 72%</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>Email: atharv.nasare1014@gmail.com</p>
+        <p>Phone: +91 9767332172</p>
+        <p>LinkedIn: linkedin.com/in/atharv1014</p>
+        <p>GitHub: github.com/Atharvnasare</p>
+        <p>Leetcode:</p>
+        <p>HackerRank:</p>
+        <p>GeeksForGeek:</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Atharv Nasare | Embedded Software/Hardware/Firmware Engineer</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
